@@ -1,0 +1,117 @@
+
+.header{
+    height: 85px;
+    border-bottom: 2px solid #c40000;
+    color: #666;
+}
+.registerarea{
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+.registerarea .title{
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 11px;
+}
+.title h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.title span{
+    font-size: 14px;
+}
+.title span a{
+    color: red;;
+}
+.reg_form{
+    width: 600px;
+    height: 374px;
+    margin: 50px auto;
+}
+.reg_form ul li{
+    height: 37px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.reg_form ul li label{
+    display: inline-block;
+    text-align: right;
+    height: 35px;
+    width: 88px;
+    margin-right: 5px;
+
+}
+.reg_form ul li input{
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.reg_form ul li .error{
+    color:red;
+}
+.reg_form ul li .success{
+    color:green;
+}
+.reg_form ul li span em{
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.reg_form ul li .error em{
+    background: url(../images/error.png);
+}
+
+.reg_form ul li .success em{
+    background: url(../images/success.png);
+}
+.reg_form ul .safe{
+    padding-left: 160px;
+    
+}
+.reg_form ul .safe em{
+    /* vertical-align:middle; */
+    display: inline-block;
+    width: 40px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+}
+.ruo{
+    background-color: red;
+}
+.zhong{
+    background-color: green;
+}
+.qiang{
+    background-color: blue;
+}
+.reg_form .argee{
+    padding-left: 85px;
+}
+.reg_form .argee .checkbox{
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+
+
+}
+.reg_form .argee a{
+    color: skyblue;
+}
+.reg_form .submit1{
+    padding-left: 80px;
+    
+}
+.reg_form .submit1 input{
+    width: 200px;
+    height: 34px;
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
